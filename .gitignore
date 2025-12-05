@@ -15,8 +15,9 @@ models/
 *.pkl
 *.pickle
 
-# Streamlit cache
-.streamlit/
+# Streamlit - ignore secrets but keep config
+.streamlit/secrets.toml
+.streamlit/credentials.toml
 
 # Distribution / packaging
 .Python

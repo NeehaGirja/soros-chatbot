@@ -1,0 +1,20 @@
+# Streamlit Cloud Configuration
+
+# Python version
+[python]
+version = "3.12"
+
+# Server settings
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+# Theme (optional - customize if needed)
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
