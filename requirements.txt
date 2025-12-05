@@ -1,0 +1,23 @@
+# Core dependencies
+streamlit==1.40.2
+sentence-transformers==5.1.2
+pinecone==7.3.0
+pandas==2.2.2
+openpyxl==3.1.5
+python-dotenv==1.0.1
+
+# LLM APIs
+groq==0.37.1
+
+# Pairs Trading & Analysis
+yfinance==0.2.66
+statsmodels==0.14.5
+matplotlib==3.10.0
+numpy==1.26.4
+scipy>=1.11.0
+
+# Optional: Local LLM fallback (not required for core functionality)
+# Uncomment if you want to use custom transformer model:
+# transformers==4.57.3
+# torch==2.7.1
+# accelerate==1.12.0

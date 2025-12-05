@@ -2,9 +2,21 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+.DS_Store
 # C extensions
 *.so
+
+# Models and cached data
+models/
+*.pt
+*.pth
+*.bin
+*.h5
+*.pkl
+*.pickle
+
+# Streamlit cache
+.streamlit/
 
 # Distribution / packaging
 .Python
